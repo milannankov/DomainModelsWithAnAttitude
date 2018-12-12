@@ -7,7 +7,7 @@ namespace MyProject.Domain
 {
     public class BankAccount
     {
-        public string Id { get; private set; }
+        public string Id { get; }
         public Money Balance { get; private set;}
 
         public BankAccount(string id, Money balance)
